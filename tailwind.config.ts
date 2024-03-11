@@ -32,6 +32,11 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      padding: {
+        "mobile": "20px",
+        "tablet": "48px",
+        "desktop": "64px",
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],

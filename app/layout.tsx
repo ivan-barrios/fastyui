@@ -6,8 +6,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "FastyUI",
-  description:
-    "Accelerate your development process by getting pre-built Next.js components.",
+  description: "Speed up development with ready-made Next.js components.",
 };
 
 export default function RootLayout({
