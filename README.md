@@ -1,5 +1,7 @@
 # Next.js Component Library
 
+https://fastyui.vercel.app/
+
 Welcome to FastyUI, my personal Next.js Component Library! This platform is designed to streamline your website development process by providing a collection of pre-built Next.js components. Whether you're building a personal blog, an e-commerce site, or a corporate webpage, this platform offers a variety of components to suit your needs.
 
 ## Features
