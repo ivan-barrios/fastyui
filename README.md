@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Component Library
+
+Welcome to FastyUI, my personal Next.js Component Library! This platform is designed to streamline your website development process by providing a collection of pre-built Next.js components. Whether you're building a personal blog, an e-commerce site, or a corporate webpage, this platform offers a variety of components to suit your needs.
+
+## Features
+
+- **Pre-built Components**: Choose from a wide range of components, including complete sections, inputs, buttons, and more.
+- **Easy Integration**: With our platform, integrating components into your Next.js project is a breeze. Simply select the desired component, copy the code snippet, and paste it into your project.
+- **Efficiency**: Save time and effort in the development cycle by leveraging our pre-built components. No need to start from scratch – get your website up and running in no time.
+- **Customization**: While our components come ready to use out of the box, they're also fully customizable to fit your specific design and functionality requirements.
+
+## How It Works
+
+1. **Choose Component Type**: Select the type of component you need for your project, such as complete sections, inputs, buttons, etc.
+2. **Select Component**: Browse through the available components and choose the one that best suits your needs.
+3. **Copy Code**: Copy the provided code snippet for the selected component.
+4. **Integrate**: Paste the code into your Next.js project, and you're good to go!
+5. **Enjoy**: Experience the ease and efficiency of using pre-built Next.js components for your website development.
 
 ## Getting Started
 
-First, run the development server:
+To get started with the Next.js Component Library, simply visit our website and explore the available components. Once you've found the components you need, follow the steps above to integrate them into your Next.js project.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Support
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+If you have any questions, feedback, or issues regarding the Next.js Component Library, feel free to reach out at ivanbar8112003@gmail.com.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding!
