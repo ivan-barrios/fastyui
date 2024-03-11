@@ -25,4 +25,7 @@ To get started with the Next.js Component Library, simply visit our website and 
 
 If you have any questions, feedback, or issues regarding the Next.js Component Library, feel free to reach out at ivanbar8112003@gmail.com.
 
+Tirame unos pesitos:
+alias: **ivan.lemon.barrios**
+
 Happy coding!
