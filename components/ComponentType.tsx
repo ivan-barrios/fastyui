@@ -1,4 +1,9 @@
-const ComponentType = () => {
+interface Params {
+  onNext: () => void;
+  setComponentType: (value: string) => void;
+}
+
+const ComponentType = ({ onNext, setComponentType }: Params) => {
   return (
     <div className="text-center flex flex-col items-center gap-12">
       <div className="flex items-center gap-2">
@@ -11,7 +16,14 @@ const ComponentType = () => {
       </div>
       <div className="flex flex-wrap gap-[50px] justify-center">
         {types.map((type, index) => (
-          <button key={index} className="cardBg w-[200px] hoverShadow">
+          <button
+            key={index}
+            className="cardBg w-[200px] hoverShadow"
+            onClick={() => {
+              setComponentType(type);
+              onNext();
+            }}
+          >
             {type}
           </button>
         ))}
