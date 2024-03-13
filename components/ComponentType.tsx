@@ -1,3 +1,5 @@
+import components from "@/public/Components";
+
 interface Params {
   onNext: () => void;
   setComponentType: (value: string) => void;
@@ -15,16 +17,16 @@ const ComponentType = ({ onNext, setComponentType }: Params) => {
         </h2>
       </div>
       <div className="flex flex-wrap gap-[50px] justify-center">
-        {types.map((type, index) => (
+        {components.map((component, index) => (
           <button
             key={index}
             className="cardBg w-[200px] hoverShadow"
             onClick={() => {
-              setComponentType(type);
+              setComponentType(component.id);
               onNext();
             }}
           >
-            {type}
+            {component.id.toUpperCase()}
           </button>
         ))}
       </div>
@@ -33,13 +35,3 @@ const ComponentType = ({ onNext, setComponentType }: Params) => {
 };
 
 export default ComponentType;
-
-const types = [
-  "Section",
-  "Input",
-  "Navbar",
-  "Button",
-  "Card",
-  "Dropdown",
-  "Text",
-];

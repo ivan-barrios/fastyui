@@ -1,12 +1,12 @@
 import components from "@/public/Components";
-import SyntaxHighlighter from "react-syntax-highlighter";
-import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 interface Params {
   componentType: string;
+  onNext: () => void;
+  setComponentCode: (value: string) => void;
 }
 
-const Components = ({ componentType }: Params) => {
+const Components = ({ componentType, onNext, setComponentCode }: Params) => {
   const field = componentType.toLowerCase();
   const selected = components.find((component) => component.id === field);
 
@@ -21,21 +21,19 @@ const Components = ({ componentType }: Params) => {
         </h2>
       </div>
       <div className="flex flex-wrap gap-8">
-        {selected?.elements.map((element) => element.functionalCode)}
+        {selected?.elements.map((element) => (
+          <button
+            onClick={() => {
+              setComponentCode(element.code);
+              onNext();
+            }}
+          >
+            {element.functionalCode}
+          </button>
+        ))}
       </div>
     </div>
   );
 };
 
 export default Components;
-
-//For the code
-// {selected?.elements.map((element) => (
-//     <SyntaxHighlighter
-//       language="tsx"
-//       style={atomOneDark}
-//       customStyle={{ padding: "25px" }}
-//     >
-//       {element.code}
-//     </SyntaxHighlighter>
-//   ))}

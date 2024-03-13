@@ -4,7 +4,7 @@ const Hero = () => {
       <div className="w-full flex flex-col items-center text-center">
         <div className="w-full flex flex-col items-center gap-6">
           <h1 className="title-gradient text-3xl sm:text-4xl lg:text-5xl p-2 max-w-[800px]">
-            Speed up development with ready-made Next.js components
+            Speed up development with ready-made Next.js - Tailwind components
           </h1>
           <div className="md:hidden">
             {steps.map((step, index) => (

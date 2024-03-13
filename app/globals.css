@@ -11,7 +11,7 @@
 }
 
 .cardBg {
-    @apply bg-[#898989] bg-opacity-5 border-[1px] border-white border-opacity-[0.09] px-6 py-4 rounded-[15px] transition-all duration-200 ease-in-out
+    @apply bg-[#bdbdbd] bg-opacity-10 border-[1px] border-white border-opacity-[0.09] px-6 py-4 rounded-[15px] transition-all duration-200 ease-in-out
 }
 
 .hoverShadow:hover {
