@@ -20,7 +20,7 @@ const Components = ({ componentType, onNext, setComponentCode }: Params) => {
           Choose the component you want
         </h2>
       </div>
-      <div className="flex flex-wrap gap-8">
+      <div className="flex flex-wrap gap-8 justify-center">
         {selected?.elements.map((element) => (
           <button
             onClick={() => {
